@@ -1,0 +1,2 @@
+C:\Users\nic_l\source\repos\SQLQueryTestSolution\SQLQueryClassLibrary\SQLQueryClassLibrary.csproj;x64
+C:\Users\nic_l\source\repos\SQLQueryTestSolution\SQLQueryTest\SQLQueryTest.csproj;x64

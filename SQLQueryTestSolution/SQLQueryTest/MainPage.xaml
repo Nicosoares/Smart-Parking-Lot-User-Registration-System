@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="SQLQueryTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SQLQueryTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="0,20,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+            <TextBox x:Name="FName1Input"
+                     Header="Enter your first name:" PlaceholderText="First Name"
+                     Width="300" HorizontalAlignment="Left"/>
+
+            <TextBox x:Name="FName2Input"
+                     Header="Enter your middle name:" PlaceholderText="Middle Name"
+                     Width="300" HorizontalAlignment="Left"/>
+
+            <TextBox x:Name="LastNameInput"
+                     Header="Enter your last name:" PlaceholderText="Last Name"
+                     Width="300" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+            <Button Name="SubmitButton" Content="Submit" Click="Button_Click"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Margin="0,20,0,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+
+            <TextBox x:Name="UserID"
+                     Header="Write your User ID:" PlaceholderText="User ID"
+                     Width="300" HorizontalAlignment="Left"/>
+
+
+            <Button Name="SubmitImage" Content="Submit" Click="SubmitImage_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
